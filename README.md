@@ -5,11 +5,13 @@ Developed as part of a Master's thesis.
 
 ## Description
 This repository contains two experimental components:
+
   **Part 1 - Performance Evaluation** (final_code.py) 
   Measures the perfomance of seven cryptographic configurations in a controlled environment
   - Classic: X25519 (no PQ)
   - Kyber (512, 768, 1024)
   - HQC (128, 192, 256)
+
   **Part 2 - Vulnerability Analysis** (client.py, server.py, mallory.py, client_secure.py, server_secure.py)
   A functional PQXDH client-server implementation over TCP, demonstrating:
   - Normal hybrid handshake (X25519 + Kyber 512)
