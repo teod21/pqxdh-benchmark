@@ -69,7 +69,7 @@ The results are saved in `results/network/` like this:
 
 ### Demo 2 - Man-in-the-Middle attack
 Mallory intercepts Alice's connection and replaces Bob's post-quantum public key with her own.
-> Open Wireshark on interface lo with filter `tcp_post == 5000` and `tcp_post == 5001` before running.
+> Open **Wireshark** on interface `lo` with filter `tcp_post == 5000` and `tcp_post == 5001` before running.
 ```bash
 # First terminal - Bob (server, port 5000)
 python3 server.py
